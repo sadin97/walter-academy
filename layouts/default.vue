@@ -23,16 +23,18 @@ export default {
   @import "../assets/mixins";
 
   .layout {
-    @include create-main-grid(3)
+    @include create-main-grid(3);
   }
 
   .header {
     grid-area: header;
+    //font-family: 'Roboto';
   }
   .main {
     height: calc(100vh - 80px);
     margin-top: 80px;
     grid-area: main;
+    // font-family: 'Roboto';
   }
   .space {
     grid-area: space;

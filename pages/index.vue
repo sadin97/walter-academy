@@ -16,7 +16,23 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "../assets/mixins";
+@import "../assets/variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+  margin: 0;
+  font-family: 'Roboto' !important;
+
+  @media (max-width: 425px) {
+    font-size: 1em;
+  }
+}
+
+body {
+  font-family: 'Roboto' !important;
+}
 
 .container {
   min-height: 100vh;

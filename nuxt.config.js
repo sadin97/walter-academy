@@ -1,6 +1,15 @@
 const pkg = require('./package')
 
 module.exports = {
+  fontawesome: {
+    imports: [
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['fas']
+        },
+    ],
+  },
+
   mode: 'universal',
 
   /*
@@ -14,7 +23,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
     ]
   },
 
@@ -42,7 +52,8 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    'nuxt-fontawesome'
   ],
   /*
   ** Axios module configuration
@@ -59,6 +70,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+
       // Run ESLint on save
       // if (ctx.isDev && ctx.isClient) {
       //   config.module.rules.push({

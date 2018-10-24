@@ -10,11 +10,13 @@
     </nuxt-link>
 
     <div class="mobile-navigation-bar mobile">
-      <i class="fas fa-bars open" @click="showMenu = !showMenu"></i>
-
+      <font-awesome-icon icon="bars" style="color: #fff; font-size: 30px; margin-top: 18px;" @click="showMenu = !showMenu"/>
       <div class="mobile-nav" :class="{show: showMenu}">
-        <i class="fas fa-times close" @click="showMenu = !showMenu"></i>
+        <i class="el-icon-close" style="color: #fff; font-size: 30px; margin-top: 20px; left: 15px; position: absolute;" @click="showMenu = !showMenu"></i>
         <ul>
+          <li>
+            <i class="fas fa-home"></i>
+          </li>
           <li @click="showMenu = !showMenu">
             <nuxt-link :to="{ name: 'about' }">Courses</nuxt-link>
           </li>
@@ -39,7 +41,12 @@
           <nuxt-link :to="{ name: 'about' }">Jobs</nuxt-link>
         </li>
       </ul>
+
+      <div class="loginIcon">
+        <span style="font-size: 16px; padding-right: 5px;">Login</span> <font-awesome-icon icon="sign-in-alt" />
+      </div>
     </div>
+
 
   </header>
 </template>
@@ -88,7 +95,6 @@ export default {
     justify-content: space-around;
 
     li {
-
       a {
         font-size: 2em;
         text-decoration: none;
@@ -99,6 +105,7 @@ export default {
       .nuxt-link-exact-active {
         color: $main-color;
       }
+
       .nuxt-link-active {
         color: $main-color;
       }
@@ -212,4 +219,37 @@ header {
     }
   }
 }
+.mobile {
+  display: none !important;
+}
+
+@media only screen and (max-device-width : 480px) {
+  .desktop {
+    display: none !important;
+  }
+
+  .mobile{
+    display: initial !important;
+  }
+}
+
+  .loginIcon {
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
+    /* float: right; */
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    /* padding: 0px; */
+    background-color: #0094ca;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .loginIcon:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #047da9;
+  }
 </style>

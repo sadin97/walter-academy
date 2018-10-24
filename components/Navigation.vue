@@ -18,13 +18,13 @@
             <i class="fas fa-home"></i>
           </li>
           <li @click="showMenu = !showMenu">
-            <nuxt-link :to="{ name: 'about' }">Courses</nuxt-link>
+            <nuxt-link :to="{ name: 'courses' }">Courses</nuxt-link>
           </li>
           <li @click="showMenu = !showMenu">
-            <nuxt-link :to="{ name: 'about' }">Blog</nuxt-link>
+            <nuxt-link :to="{ name: 'courses' }">Blog</nuxt-link>
           </li>
           <li @click="showMenu = !showMenu">
-            <nuxt-link :to="{ name: 'about' }">Jobs</nuxt-link>
+            <nuxt-link :to="{ name: 'courses' }">Jobs</nuxt-link>
           </li>
         </ul>
       </div>
@@ -32,13 +32,13 @@
     <div class="navigation-bar desktop">
       <ul>
         <li>
-          <nuxt-link :to="{ name: 'about' }">Courses</nuxt-link>
+          <nuxt-link :to="{ name: 'courses' }">Courses</nuxt-link>
         </li>
         <li>
-          <nuxt-link :to="{ name: 'about' }">Blog</nuxt-link>
+          <nuxt-link :to="{ name: 'courses' }">Blog</nuxt-link>
         </li>
         <li>
-          <nuxt-link :to="{ name: 'about' }">Jobs</nuxt-link>
+          <nuxt-link :to="{ name: 'courses' }">Jobs</nuxt-link>
         </li>
       </ul>
 

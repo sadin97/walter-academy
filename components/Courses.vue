@@ -1,14 +1,13 @@
 <template>
   <div>
-    test
+    Courses
   </div>
 </template>
 
 <script>
-  export default {
-  }
+export default {
+}
 </script>
 
 <style lang="scss" scoped>
-
 </style>

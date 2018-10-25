@@ -21,10 +21,10 @@
             <nuxt-link :to="{ name: 'courses' }">Courses</nuxt-link>
           </li>
           <li @click="showMenu = !showMenu">
-            <nuxt-link :to="{ name: 'courses' }">Blog</nuxt-link>
+            <nuxt-link :to="{ name: 'blog' }">Blog</nuxt-link>
           </li>
           <li @click="showMenu = !showMenu">
-            <nuxt-link :to="{ name: 'courses' }">Jobs</nuxt-link>
+            <a href="https://walter.ba/careers/jobs">Jobs</a>
           </li>
         </ul>
       </div>
@@ -35,10 +35,10 @@
           <nuxt-link :to="{ name: 'courses' }">Courses</nuxt-link>
         </li>
         <li>
-          <nuxt-link :to="{ name: 'courses' }">Blog</nuxt-link>
+          <nuxt-link :to="{ name: 'blog' }">Blog</nuxt-link>
         </li>
         <li>
-          <nuxt-link :to="{ name: 'courses' }">Jobs</nuxt-link>
+          <a href="https://walter.ba/careers/jobs">Jobs</a>
         </li>
       </ul>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    Courses component
+    Blog component
   </div>
 </template>
 
@@ -9,5 +9,5 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="css">
 </style>

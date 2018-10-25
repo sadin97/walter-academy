@@ -43,16 +43,16 @@
           { id: 3, title: 'Revit Course 3', date: '20.01.2019.', image: 'https://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg' },
           { id: 4, title: 'Revit Course 4', date: '20.01.2019.', image: 'https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350' },
           { id: 5, title: 'Revit Course 5', date: '20.01.2019.', image: 'https://www.w3schools.com/w3css/img_lights.jpg' },
-          { id: 6, title: 'Revit Course', date: '20.01.2019.', image: 'https://cdn.pixabay.com/photo/2016/10/27/22/53/heart-1776746_960_720.jpg' },
-          { id: 7, title: 'Revit Course', date: '20.01.2019.', image: 'https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg' },
-          { id: 8, title: 'Revit Course', date: '20.01.2019.', image: 'https://cdn.vox-cdn.com/thumbor/lV5E8BPA4ej6sLO4Q92iAXjw-Ls=/0x0:1500x1000/1200x800/filters:focal(630x380:870x620)/cdn.vox-cdn.com/uploads/chorus_image/image/58769211/akrales_160708_1123_A_0039.0.0.jpg' },
-          { id: 9, title: 'Revit Course', date: '20.01.2019.', image: 'https://i.dailymail.co.uk/i/pix/2016/09/06/11/37F60FD200000578-0-image-a-5_1473156426673.jpg' },
-          { id: 10, title: 'Revit Course', date: '20.01.2019.', image: 'https://www.gettyimages.in/gi-resources/images/Homepage/Hero/US/SEP2016/prestige-476863311.jpg' },
-          { id: 11, title: 'Revit Course', date: '20.01.2019.', image: 'https://www.w3schools.com/howto/img_forest.jpg' },
-          { id: 12, title: 'Revit Course', date: '20.01.2019.', image: 'https://www.bmw.ie/content/dam/bmw/common/all-models/m-series/m4-convertible/2017/images-and-videos/images/BMW-m4-convertible-images-and-videos-1920x1200-06.jpg.asset.1487344406677.jpg' },
-          { id: 13, title: 'Revit Course', date: '20.01.2019.', image: 'https://wallpaperbrowse.com/media/images/fall-autumn-red-season_WV7Vb7u.jpg' },
-          { id: 14, title: 'Revit Course', date: '20.01.2019.', image: 'https://wallpaperbrowse.com/media/images/soap-bubble-1958650_960_720.jpg' },
-          { id: 15, title: 'Revit Course', date: '20.01.2019.', image: 'https://cdn.pixabay.com/photo/2018/06/09/22/56/peacock-3465442_960_720.jpg' }
+          { id: 6, title: 'Revit Course 6', date: '20.01.2019.', image: 'https://cdn.pixabay.com/photo/2016/10/27/22/53/heart-1776746_960_720.jpg' },
+          { id: 7, title: 'Revit Course 7', date: '20.01.2019.', image: 'https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg' },
+          { id: 8, title: 'Revit Course 8', date: '20.01.2019.', image: 'https://cdn.vox-cdn.com/thumbor/lV5E8BPA4ej6sLO4Q92iAXjw-Ls=/0x0:1500x1000/1200x800/filters:focal(630x380:870x620)/cdn.vox-cdn.com/uploads/chorus_image/image/58769211/akrales_160708_1123_A_0039.0.0.jpg' },
+          { id: 9, title: 'Revit Course 9', date: '20.01.2019.', image: 'https://i.dailymail.co.uk/i/pix/2016/09/06/11/37F60FD200000578-0-image-a-5_1473156426673.jpg' },
+          { id: 10, title: 'Revit Course 10', date: '20.01.2019.', image: 'https://www.gettyimages.in/gi-resources/images/Homepage/Hero/US/SEP2016/prestige-476863311.jpg' },
+          { id: 11, title: 'Revit Course 11', date: '20.01.2019.', image: 'https://www.w3schools.com/howto/img_forest.jpg' },
+          { id: 12, title: 'Revit Course 12', date: '20.01.2019.', image: 'https://www.bmw.ie/content/dam/bmw/common/all-models/m-series/m4-convertible/2017/images-and-videos/images/BMW-m4-convertible-images-and-videos-1920x1200-06.jpg.asset.1487344406677.jpg' },
+          { id: 13, title: 'Revit Course 13', date: '20.01.2019.', image: 'https://wallpaperbrowse.com/media/images/fall-autumn-red-season_WV7Vb7u.jpg' },
+          { id: 14, title: 'Revit Course 14', date: '20.01.2019.', image: 'https://wallpaperbrowse.com/media/images/soap-bubble-1958650_960_720.jpg' },
+          { id: 15, title: 'Revit Course 15', date: '20.01.2019.', image: 'https://cdn.pixabay.com/photo/2018/06/09/22/56/peacock-3465442_960_720.jpg' }
         ]
       }
     },

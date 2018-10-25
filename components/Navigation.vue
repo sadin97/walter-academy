@@ -12,10 +12,10 @@
     <div class="mobile-navigation-bar mobile">
       <font-awesome-icon icon="bars" style="color: #fff; font-size: 30px; margin-top: 18px;" @click="showMenu = !showMenu"/>
       <div class="mobile-nav" :class="{show: showMenu}">
-        <i class="el-icon-close" style="color: #fff; font-size: 30px; margin-top: 20px; left: 15px; position: absolute;" @click="showMenu = !showMenu"></i>
+        <i class="el-icon-close" style="color: #fff; font-size: 20px; margin-top: 20px; left: 15px; position: absolute;" @click="showMenu = !showMenu"></i>
         <ul>
           <li>
-            <i class="fas fa-home"></i>
+            <a href="https://www.walter.ba"><font-awesome-icon icon="home" style="color: #fff; font-size: 20px;"/></a>
           </li>
           <li @click="showMenu = !showMenu">
             <nuxt-link :to="{ name: 'courses' }">Courses</nuxt-link>
@@ -31,6 +31,9 @@
     </div>
     <div class="navigation-bar desktop">
       <ul>
+        <li>
+          <a href="https://www.walter.ba"><font-awesome-icon icon="home" style="color: #fff; font-size: 20px;"/></a>
+        </li>
         <li>
           <nuxt-link :to="{ name: 'courses' }">Courses</nuxt-link>
         </li>
